@@ -1,3 +1,6 @@
+// ideas form Vins-Mono
+// Modifier: Guisong Chen   guisongchen@163.com
+
 #ifndef MSCKF_VIO_INITIAL_SFM_H
 #define MSCKF_VIO_INITIAL_SFM_H
 
