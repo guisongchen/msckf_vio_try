@@ -1,3 +1,6 @@
+// ideas form Vins-Mono
+// Modifier: Guisong Chen   guisongchen@163.com
+
 #include "initial_sfm/initial_sfm.h"
 #include "msckf_vio/math_utils.hpp"
 
