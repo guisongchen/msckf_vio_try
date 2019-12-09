@@ -1,4 +1,4 @@
-// MSCKF_VIO extend with sfm initialization
+// MSCKF_VIO extend with sfm initialization, add interface codes
 // Modifier: Guisong Chen   guisongchen@163.com
 
 /*
