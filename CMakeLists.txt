@@ -76,6 +76,7 @@ include_directories(
 )
 
 # Msckf Vio
+# add sfm initializtion file
 add_library(msckf_vio
   src/msckf_vio.cpp
   src/initial_sfm.cpp
@@ -85,6 +86,8 @@ add_dependencies(msckf_vio
   ${${PROJECT_NAME}_EXPORTED_TARGETS}
   ${catkin_EXPORTED_TARGETS}
 )
+
+# add opencv lib for sfm init. file
 target_link_libraries(msckf_vio
   ${catkin_LIBRARIES}
   ${SUITESPARSE_LIBRARIES}
